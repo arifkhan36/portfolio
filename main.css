@@ -64,3 +64,19 @@ font-family: 'Fascinate Inline', cursive;
 .w3-text-black{
   color:red;
 }
+.avatar{
+  width:200px;
+}
+.img-responsive{
+  width:500px;
+  margin: 0px 0px 10px 0px;
+
+}
+.about{
+font-size: 20px;
+font-family: 'Fascinate Inline', cursive;
+margin:-500px 10px 200px 600px;
+}
+.profileimg{
+  color:red;
+}
