@@ -73,10 +73,12 @@ font-family: 'Fascinate Inline', cursive;
 
 }
 .about{
-font-size: 20px;
+font-size: 23px;
+font-family:'Merriweather', serif;
 /*font-family: 'Fascinate Inline', cursive;*/
 margin:-500px 10px 200px 600px;
 }
 .profileimg{
+  font-family:'Lobster Two', cursive;
   color:red;
 }
