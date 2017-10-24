@@ -112,6 +112,7 @@ font-family: 'Fascinate Inline', cursive;
 }
 @media only screen and (max-width: 500px) {
   .row{
+    display: none;
 margin:0 auto;
 display: block;
 width:50%;
