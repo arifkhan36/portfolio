@@ -87,6 +87,10 @@ font-family: 'Fascinate Inline', cursive;
   width:100%;
 
 }
+.w3-row-padding>.w3-col {
+    padding: 0 45px;
+}
+
 
 @media only screen and (max-width: 500px) {
     .imagebox{
