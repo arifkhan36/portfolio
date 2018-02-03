@@ -64,6 +64,11 @@ font-family: 'Fascinate Inline', cursive;
 .w3-text-black{
   color:red;
 }
+.w3-text-white {
+  font: bold 60px "Open Sans", sans-serif;
+  margin-bottom: 15px;
+
+}
 
 .profileimg{
   font-family:'Lobster Two', cursive;
@@ -90,7 +95,53 @@ font-family: 'Fascinate Inline', cursive;
 .w3-row-padding .w3-col {
     padding: 0 45px;
 }
+.hero {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 80px;
 
+}
+.hero h1 {
+  font: bold 60px "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.hero h3{
+  font: normal 28px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.hero-content-area {
+  opacity: 0;
+  margin-top: 100px;
+  animation: 2s slidefade 2s forwards;
+}
+@keyframes slidefade {
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
+}
+.w3-xxlarge {
+  opacity: 0;
+  margin-top: 100px;
+  animation: 2s slidefade 2s forwards;
+}
+@keyframes slidefade {
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .w3-row-padding {
+    padding: 5%;
+  }
+}
 
 @media only screen and (max-width: 500px) {
     .imagebox{
@@ -121,4 +172,28 @@ margin:0 auto;
 display: block;
 width:50%;
   }
+}
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto;
+   /* Gives that scrolling effect as the typing happens */
+   margin-bottom: 250px;
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
