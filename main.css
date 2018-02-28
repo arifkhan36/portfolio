@@ -2,7 +2,6 @@
     background-color:white;
     width: 10.75rem;
     box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
-    /*letter-spacing: 0;*/
     font-size: .875rem;
     height: 2.25rem;
     font-weight: 400;
@@ -53,9 +52,6 @@ margin:0 10px;
   color:white;
   background-color:#031126;
 }
-/*.w3-top{
-  color:red;
-}*/
 .overlay{
     text-align:center;
     background-color:white;
