@@ -159,7 +159,7 @@ font-family: 'Fascinate Inline', cursive;
   justify-content: center;
   text-align: center;
   min-height: 100vh;
-  color: #fff;
+  color: #91daee;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -255,7 +255,7 @@ width:50%;
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto;
    /* Gives that scrolling effect as the typing happens */
-   margin-bottom: 250px;
+   margin-bottom: 191px;
   letter-spacing: .15em; /* Adjust as needed */
   animation:
     typing 3.5s steps(40, end),
